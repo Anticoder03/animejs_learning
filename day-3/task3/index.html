@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Anime.js Demo</title>
+  <style>
+    .box {
+      width: 100px;
+      height: 100px;
+      background: rgb(0,0,033);
+      border: 20px solid rgba(255, 255, 255, 0.5);
+      border-radius: 20px;
+    }
+    body{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #111;
+      font-family: sans-serif;
+    }
+    /* .cover{
+      margin: 50rem;
+
+    }
+   
+   .section{
+    background-color: #2e2e2e;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 50%;
+    margin: 30px 0;
+   } */
+   
+   /* .line-loader{
+    width: 200px;
+    border: 2px solid #fff;
+    color: #fff;
+    text-align: center;
+   }
+  .loading-text{
+    font-size: 2rem;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+  } */
+   .card{
+    width: 300px;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    overflow: hidden;
+   }
+   .card-header{
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+   }
+   .card-body{
+    padding: 20px;
+    text-align: center;
+   }
+    .card-footer{
+      background-color: #f8f9fa;
+      padding: 10px;
+      text-align: center;
+    }
+    .card-footer button{
+      background-color: #007bff;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .back-text{
+      position: relative;
+      top: 0;
+      left: 0;
+      background-color: #007bff;
+     /* visibility: hidden; */
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 2rem;
+      transform: rotateY(180deg);
+    }
+      
+  </style>
+  
+</head>
+<body>
+<!-- <div class="container">
+  <div class="head" >
+    <img src="./head.png" style="margin-left: 5.5rem;" alt="">
+  </div>
+  <div class="body">
+    <img src="./left-hand.png" class="arms" alt="left_hand">
+    <img src="./body.png" class="body" alt="body">
+    <img src="./right-hand.png" class="arms" alt="right">
+  </div>
+</div> -->
+<!-- <div class="cover"></div>
+
+
+<div class="section">
+  <h1>Heading</h1>
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, porro ad perspiciatis molestias expedita ducimus natus neque velit quos omnis dignissimos ut vitae molestiae alias? Repellendus, inventore sapiente. Aliquid, deleniti?
+  </p>
+</div>
+<div class="section">
+  <h1>Heading</h1>
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, porro ad perspiciatis molestias expedita ducimus natus neque velit quos omnis dignissimos ut vitae molestiae alias? Repellendus, inventore sapiente. Aliquid, deleniti?
+  </p>
+</div>
+<div class="section">
+  <h1>Heading</h1>
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, porro ad perspiciatis molestias expedita ducimus natus neque velit quos omnis dignissimos ut vitae molestiae alias? Repellendus, inventore sapiente. Aliquid, deleniti?
+  </p>
+</div>
+<div class="section">
+  <h1>Heading</h1>
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, porro ad perspiciatis molestias expedita ducimus natus neque velit quos omnis dignissimos ut vitae molestiae alias? Repellendus, inventore sapiente. Aliquid, deleniti?
+  </p>
+</div>
+<div class="section">
+  <h1>Heading</h1>
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, porro ad perspiciatis molestias expedita ducimus natus neque velit quos omnis dignissimos ut vitae molestiae alias? Repellendus, inventore sapiente. Aliquid, deleniti?
+  </p>
+</div> -->
+<!-- 
+<div class="line-loader">
+  <h1 class="loading-text">Loading</h1>
+</div> -->
+
+<div class="card">
+  <div class="front">
+    <div class="card-header">
+      <h1>Card Title</h1>
+    </div>
+    <div class="card-body">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.</p>
+    </div>
+    <div class="card-footer">
+      <button>Click Me</button>
+    </div>
+  </div>
+  <div class="back-text">
+    hello world
+  </div>
+</div>
+
+
+  <!-- Anime.js CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+  <script src="./index.js"></script>
+</body>
+</html>
