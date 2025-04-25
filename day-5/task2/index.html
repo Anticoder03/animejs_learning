@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day - 5 | Task 2</title>
+    <style>
+         body {
+      margin: 0;
+      background: #121212;
+      color: white;
+      font-family: sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
+      padding: 2rem;
+    }
+    svg {
+      overflow: visible;
+    }
+    #ball-container {
+      position: relative;
+      width: 300px;
+      height: 150px;
+      background: #1e1e1e;
+      border: 2px dashed #444;
+    }
+    .ball {
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background-color: #4fc3f7;
+    }
+    .progress-wrapper {
+      width: 80%;
+      background: #333;
+      border-radius: 10px;
+      overflow: hidden;
+      height: 25px;
+    }
+    .progress-bar {
+      height: 100%;
+      width: 0%;
+      background: linear-gradient(to right, #ff4081, #ff80ab);
+      transition: width 0.3s;
+    }
+    button {
+      padding: 10px 20px;   
+      font-size: 16px;
+      background: hotpink;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    </style>
+</head>
+<body>
+    
+  <!-- Circle Following Path -->
+  <svg width="400" height="200">
+    <path id="followPath" d="M10,150 Q200,-100 390,150" stroke="#aaa" fill="none"/>
+    <circle r="10" fill="hotpink"/>
+  </svg>
+
+  <!-- Random Bouncing Balls -->
+  <div id="ball-container"></div>
+
+  <!-- Progress Bar with Button -->
+  <div class="progress-wrapper">
+    <div class="progress-bar" id="bar"></div>
+  </div>
+  <button onclick="increaseProgress()">Increase Progress</button>
+
+</body>
+<!-- Anime js CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+<script src="./script.js"></script>
+</html>
