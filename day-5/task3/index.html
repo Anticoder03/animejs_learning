@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day - 5 | Task 2</title>
+    <style>
+        body {
+          margin: 0;
+          background: #121212;
+          color: white;
+          font-family: sans-serif;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          height: 100vh;
+          overflow: hidden;
+        }
+    
+        /* SVG logo */
+        .logo-svg {
+          max-width: 400px;
+          margin: 30px;
+        }
+    
+        /* Line graph container */
+        #lineGraph {
+          width: 80%;
+          height: 300px;
+          margin-top: 50px;
+        }
+    
+        /* Card for GSAP + Anime.js */
+        .card {
+          width: 200px;
+          height: 250px;
+          background-color: #4fc3f7;
+          margin-top: 50px;
+          border-radius: 10px;
+          opacity: 0;
+          transform: translateY(100px);
+          position: relative;
+        }
+    
+        /* Animated Card Button */
+        button {
+          margin-top: 20px;
+          padding: 10px 20px;
+          font-size: 16px;
+          background: hotpink;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+        }
+      </style>
+</head>
+<body>
+ 
+      <!-- Animated SVG Logo with Multiple Paths -->
+  <svg class="logo-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+    <path d="M10,10 L50,90 L90,10" stroke="white" stroke-width="2" fill="none"/>
+    <path d="M20,20 L60,80 L100,20" stroke="white" stroke-width="2" fill="none"/>
+    <path d="M30,30 L70,70 L110,30" stroke="white" stroke-width="2" fill="none"/>
+  </svg>
+
+  <!-- Animated Line Graph -->
+  <svg id="lineGraph" viewBox="0 0 400 300">
+    <path id="linePath" fill="none" stroke="lime" stroke-width="2"/>
+  </svg>
+
+  <!-- Card Animation -->
+  <div class="card"></div>
+  <button onclick="animateCard()">Animate Card</button>
+
+
+</body>
+<!-- Anime js CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+<!-- GSAP CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+<script src="./script.js"></script>
+</html>
