@@ -1,75 +1,104 @@
-# animejs_learning
-# ✨ Anime.js Learning — Day 1–3
 
-A lightweight animated landing page created using [Anime.js](https://animejs.com/) to kick off my animation learning journey.
+
+# ✨ Anime.js Learning Journey — Day 1 to 5
+
+A five-day creative deep dive into web animations using [Anime.js](https://animejs.com/), where I explored interactivity, scroll-based effects, timelines, and real-world animation projects.
 
 ---
 
 ## 🚀 What I Built
 
-A fully responsive landing page with animated:
-- Logo
-- Navbar items
-- Hero title and description
-- Buttons
-- Footer
-
-All animations were powered by **Anime.js**, including staggered effects, opacity transitions, scaling, and directional movement.
+- 🎨 Animated landing page with scroll & load effects  
+- 🌅 Sunrise animation (minor project)  
+- 📦 Scroll-based storytelling page (major project)  
+- 🧠 Used callbacks, timelines, and dynamic properties  
+- 📊 Started working with SVGs, charts, and UI motion  
 
 ---
 
-## ✅ Day 1 Progress Summary
+## ✅ Day 1: Kickoff & Basic Animation Setup
 
-- 🔧 Setup basic HTML and CSS layout  
-- 🎯 Integrated Anime.js via CDN  
-- 🎨 Animated logo slide-in  
-- 📦 Staggered drop of navbar items  
-- 🧠 Scaled and faded-in hero title  
-- ✨ Animated paragraph text with smooth fade-in  
-- 🕹️ Buttons scaled with hover transitions  
-- 📜 Footer animated on load  
-- ⚙️ Polished animation durations and easings  
+- 🔧 Setup HTML/CSS layout and Anime.js via CDN  
+- 🎯 Slide-in logo, staggered nav items  
+- 🎨 Hero text fade/scale animations  
+- 🕹️ Button hover interaction  
+- 📜 Footer animation on page load  
 
----
-
-## ✅ Day 2 Progress Summary
-
-**Stage 2: Core Properties & Parameters**
-- 📌 Learned key properties: `translateX`, `translateY`, `scale`, `rotate`, `opacity`, `backgroundColor`  
-- ⏱️ Explored `duration`, `delay`, `easing`, `loop`, `direction`  
-- ⚙️ Worked with `autoplay: false` to trigger animations manually on events  
-- 👆 Created hover and click animations for buttons  
-- 📦 Built scroll animations using **IntersectionObserver**  
-- 🔥 Combined `translate`, `scale`, `rotate`, and `opacity` to animate sections on scroll  
-
-**Live Demos:**
-- [Button & Minor Effects](https://codepen.io/Ashish-prajapati-the-sasster/pen/zxxGyWM)  
-- [Section Scroll Animation](https://codepen.io/Ashish-prajapati-the-sasster/pen/QwwwRmP)
+**Live Demo:**  
+➡️ [Landing Page Animation](https://codepen.io/Ashish-prajapati-the-sasster/pen/mdRRMXY)
 
 ---
 
-## ✅ Day 3 Progress Summary
+## ✅ Day 2: Mastering Core Properties & Events
 
-**Stage 3: Timelines & Chaining Animations**
-- 🧵 Learned `anime.timeline()` for sequencing  
-- 🎯 Used multiple steps and `add()` to chain animations  
-- 🌀 Practiced staggering animations with `stagger()`  
-- 🪄 Created a pulse + scale + rotate button effect on click  
-- 👾 Understood nested animation structures for complex elements  
+**Topics Learned:**
+- `translateX`, `translateY`, `scale`, `rotate`, `opacity`, `backgroundColor`  
+- `duration`, `delay`, `easing`, `loop`, `direction`, `autoplay`
 
-**Live Demos:**
-- [Minor Timeline Animation](https://codepen.io/Ashish-prajapati-the-sasster/pen/qEEObPg)  
-- [Stage 3 Project – Character Entrance](https://codepen.io/Ashish-prajapati-the-sasster/pen/ByyojEW)
+**Practiced:**
+- Hover and click-triggered animations  
+- Scroll-reveal with `IntersectionObserver`  
+- Combined `scale` + `opacity` + `translate` for section animations  
+
+**Demos:**  
+- [Button Effects](https://codepen.io/Ashish-prajapati-the-sasster/pen/zxxGyWM)  
+- [Scroll Section Anim](https://codepen.io/Ashish-prajapati-the-sasster/pen/QwwwRmP)
 
 ---
 
-## 🛠 Tech Stack
+## ✅ Day 3: Timelines & Sequencing Magic
 
-- HTML5  
-- CSS3  
-- JavaScript  
-- Anime.js  
-- Google Fonts (Poppins)
+**Topics Covered:**
+- `anime.timeline()` for chaining steps  
+- `add()` with offsets and easing  
+- `stagger()` for cascading effects  
+- Combined multiple element animations into one sequence
+
+**Live Projects:**
+- [Timeline Button](https://codepen.io/Ashish-prajapati-the-sasster/pen/qEEObPg)  
+- [Character Entrance](https://codepen.io/Ashish-prajapati-the-sasster/pen/ByyojEW)
+
+---
+
+## ✅ Day 4: Interactivity & Callbacks
+
+**Topics Covered:**
+- Callbacks: `onBegin`, `onUpdate`, `onComplete`  
+- Controls: `play()`, `pause()`, `reverse()`, `restart()`  
+- Event listeners: hover, click, scroll  
+- Scroll-triggered animations with `IntersectionObserver`
+
+**Minor Project:**
+- 🌅 [Sunrise Animation](https://codepen.io/Ashish-prajapati-the-sasster/pen/ZYYOGPM)
+
+**Major Project:**
+- 📖 [Scroll-Based Storytelling](https://codepen.io/Ashish-prajapati-the-sasster/pen/pvvEGKe)
+
+---
+
+## ✅ Day 5: Advanced Animation Techniques
+
+**Topics Explored:**
+- ✨ SVG path animations  
+- 🌀 Motion paths  
+- 🎲 Dynamic values using `anime.random()` or functions  
+- 🔁 Started integrating GSAP & Anime.js  
+- 📈 Explored animating custom charts / UI elements
+
+**Practice Sets:**
+- SVG icon spinner  
+- Motion path object fly  
+- Dynamic color-based bouncing balls
+
+---
+
+## 🧠 What’s Next?
+
+Now stepping into:
+- 🧩 Scroll-based storytelling websites  
+- 🌀 Full GSAP + Anime.js combos  
+- 🎧 Music visualizer project  
+- 🧬 Component-level UI animations  
 
 ---
 
@@ -88,5 +117,8 @@ All animations were powered by **Anime.js**, including staggered effects, opacit
 
 ---
 
-> 🎨 **"Every animation begins with a single frame — keep pushing pixels and you'll paint motion itself."**  
-> — *Anonymous*
+> 🎥 **“Animation isn’t just movement — it’s emotion, it’s story, it’s life.”**  
+> — *Ashish Prajapati*
+
+---
+
